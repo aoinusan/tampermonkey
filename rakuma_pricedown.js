@@ -11,15 +11,15 @@
 
 (function() {
 // ボタンを作成し、bodyに追加
-  var startBtn = document.createElement('button');
-  startBtn.id = 'startBtn';
-  startBtn.style.position = 'fixed';
-  startBtn.style.zIndex = '9999';
-  startBtn.style.marginTop = '30px';
-  startBtn.textContent = '値下げする';
-  document.body.prepend(startBtn);
+  var changeBtn = document.createElement('button');
+  changeBtn.id = 'changeBtn';
+  changeBtn.style.position = 'fixed';
+  changeBtn.style.zIndex = '9999';
+  changeBtn.style.marginTop = '30px';
+  changeBtn.textContent = '100円値下げする';
+  document.body.prepend(changeBtn);
 // ボタンクリック時のイベントリスナーを設定
-  startBtn.addEventListener('click', function() {
+  changeBtn.addEventListener('click', function() {
   // 現在の価格を取得し、新しい価格を計算
     var currentPriceInput = document.getElementById('sell_price');
     if (currentPriceInput) {
