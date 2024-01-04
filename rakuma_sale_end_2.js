@@ -14,6 +14,7 @@
   var startBtn = document.createElement('button');
   startBtn.id = 'startBtn';
   startBtn.style.position = 'fixed';
+  startBtn.style.right = '10px';
   startBtn.style.zIndex = '9999';
   startBtn.textContent = '価格を変更';
   document.body.prepend(startBtn);

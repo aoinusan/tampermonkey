@@ -14,6 +14,7 @@ var startBtn = document.createElement('button');
 startBtn.id = 'startBtn';
 startBtn.style.position = 'fixed';
 startBtn.style.zIndex = '9999';
+startBtn.style.right = '10px';
 startBtn.style.marginTop = '30px';
 startBtn.textContent = '通常価格を取得';
 

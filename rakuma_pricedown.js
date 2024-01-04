@@ -15,6 +15,7 @@
   changeBtn.id = 'changeBtn';
   changeBtn.style.position = 'fixed';
   changeBtn.style.zIndex = '9999';
+  changeBtn.style.right = '10px';
   changeBtn.style.marginTop = '30px';
   changeBtn.textContent = '100円値下げする';
   document.body.prepend(changeBtn);
